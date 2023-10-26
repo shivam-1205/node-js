@@ -15,3 +15,4 @@
 
 // //=== strict chack datatype chack
 // console.log("2"===2);//false
+
