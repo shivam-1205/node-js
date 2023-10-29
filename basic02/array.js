@@ -37,6 +37,8 @@
 // console.log("c",myarr)//array can change and sllice yeah porsiton can also remove form original array ,original arry can manupulate
 // console.log(myn2);
 
+
+//**************commbination  */
 // const marval_hero=["ironman","thor","loki"];
 // const Dc_hero=["batman","superman","aquaman"]
 
