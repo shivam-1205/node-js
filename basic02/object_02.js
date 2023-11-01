@@ -70,7 +70,7 @@
  //const obj3={obj1,obj2}
  //const obj3=Object.assign({},obj1,obj2)
 
- const obj3={...obj1,...obj2}//separate operator for combind with each other
+ const obj3={...obj1,...obj2}//spread operator for combind with each other
  //console.log(obj3);
 
 
