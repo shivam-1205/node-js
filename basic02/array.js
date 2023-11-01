@@ -47,7 +47,7 @@
 // const allheros=marval_hero.concat(Dc_hero);
 // console.log(allheros);
 
-// const allnewhero=[...marval_hero,...Dc_hero]//separate operator for combind with each other
+// const allnewhero=[...marval_hero,...Dc_hero]//spread operator for combind with each other
 // console.log(allnewhero);
 const newarray=[1,2,3,[4,5,6],7,[8,9,[2,3]]];
 const realarray=newarray.flat()
