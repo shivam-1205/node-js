@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>dom learning</title>
+</head>
+<body style="background-color: black; color:red">
+<div class="parent">
+    <div class="day">Monday</div>
+    <!--every line has nodes and significant-->
+    //html mian ek line break hota hai uske baad count nahi hota hai
+    <div class="day">Thusday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+
+</div>
+</body>
+<script>
+    const parent=document.querySelector('.parent');
+    // console.log(parent);
+     console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+    for (let i = 0; i<parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+        
+    }
+    parent.children[1].style.color="orange"
+    // console.log(parent.firstElementChild);
+    // read-only property returns an element's --firstchild--- Element, or null if there are no child elements.
+
+    // read-only property returns an element's --lastchild--- Element, or null if there are no child elements.
+    // console.log(parent.lastElementChild);
+
+
+    const dayOne=document.querySelector('.day')
+    // querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
+
+
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+
+    console.log("NODES: ",parent.childNodes);
+    //childNode is a node its can return a live nodelist...and childnode can inculed the element , text and comment
+
+
+    
+    
+</script>
+</html>
