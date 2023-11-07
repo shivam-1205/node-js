@@ -1,4 +1,5 @@
-//for loop
+//for loop //  used to repeat a specific block of code a known number of times.
+// A for loop repeats until a specified condition evaluates to false
 for (let i = 0; i <10; i++) {
     const element =i;
     if (element==5) {
