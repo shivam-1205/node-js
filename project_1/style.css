@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.button{
+ width: 60px;
+  height: 50px;
+  padding: 40px;
+  border: 5px solid white;
+  margin: 2px;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  
+}
+#grey{
+    border: 5px solid grey;
+    background-color: grey;
+}
+#yellow{
+     border: 5px solid yellow;
+     background-color: yellow;
+    
+   }
+   #white{
+    border: 5px solid white;
+    background-color: white;
+   
+   }
+   #blue{
+    border: 5px solid blue;
+     background-color: blue;
+    
+   }
