@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    display: grid;
+    text-align: center;
+    padding: 10px;
+    margin: 16px;
+    gap: 25px;
+
+}
+#Height{
+   
+    padding:15px
+
+}
+#Weight{
+   
+    padding:15px
+}
+.btm{
+    padding: 10px;
+    margin: 25px;
+}
+/* h2+p{
+	padding: 0;
+	margin: 0;
+	} */
+    h2, .h2{
+        margin-bottom: 30px;
+        }
